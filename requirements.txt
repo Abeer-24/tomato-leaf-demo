@@ -1,0 +1,5 @@
+flask>=3.0,<4
+gunicorn>=22
+onnxruntime>=1.18
+numpy>=1.26,<3
+pillow>=10
