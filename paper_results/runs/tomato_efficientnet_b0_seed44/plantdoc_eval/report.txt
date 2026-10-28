@@ -1,0 +1,16 @@
+PlantDoc (field) | images 542 | accuracy 0.319 | macro-F1 0.197
+
+                    precision    recall  f1-score   support
+
+    Bacterial_spot      0.333     0.016     0.031        61
+      Early_blight      0.224     0.873     0.356        71
+       Late_blight      0.395     0.731     0.513       108
+         Leaf_Mold      0.375     0.053     0.092        57
+      Mosaic_virus      0.000     0.000     0.000        33
+Septoria_leaf_spot      0.471     0.139     0.215       115
+  Yellow_leaf_curl      0.714     0.179     0.286        56
+           healthy      0.333     0.049     0.085        41
+
+          accuracy                          0.319       542
+         macro avg      0.356     0.255     0.197       542
+      weighted avg      0.384     0.319     0.244       542

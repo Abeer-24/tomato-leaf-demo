@@ -1,0 +1,16 @@
+model efficientnet_b0 | best epoch 12 | TEST accuracy 0.997 | macro-F1 0.997 | weighted-F1 0.997
+
+                    precision    recall  f1-score   support
+
+    Bacterial_spot      0.994     0.997     0.995       320
+      Early_blight      0.987     0.993     0.990       150
+       Late_blight      0.996     0.990     0.993       287
+         Leaf_Mold      1.000     1.000     1.000       142
+      Mosaic_virus      1.000     1.000     1.000        56
+Septoria_leaf_spot      0.996     1.000     0.998       266
+  Yellow_leaf_curl      1.000     0.998     0.999       803
+           healthy      0.996     1.000     0.998       239
+
+          accuracy                          0.997      2263
+         macro avg      0.996     0.997     0.997      2263
+      weighted avg      0.997     0.997     0.997      2263

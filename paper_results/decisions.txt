@@ -1,0 +1,7 @@
+# PlantDoc cleaning log. To rebuild after a reset, run the commands below in order.
+
+# Step 0: automatic rules
+python apply_audit_rules.py
+
+# Corn NLB: filenames showed other diseases (anthracnose, bacterial leaf streak, Goss's wilt, southern/northern corn leaf spot)
+python apply_audit_rules.py drop "Corn/Northern Leaf Blight" 11 20 41 45 54 55 69 79 80 98 104 136 191

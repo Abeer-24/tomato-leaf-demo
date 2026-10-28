@@ -1,0 +1,12 @@
+,precision,recall,f1-score,support
+Bacterial_spot,1.0,1.0,1.0,40.0
+Early_blight,0.975,0.975,0.975,40.0
+Late_blight,0.975,0.975,0.975,40.0
+Leaf_Mold,1.0,1.0,1.0,40.0
+Mosaic_virus,1.0,1.0,1.0,40.0
+Septoria_leaf_spot,1.0,1.0,1.0,40.0
+Yellow_leaf_curl,1.0,1.0,1.0,40.0
+healthy,1.0,1.0,1.0,40.0
+accuracy,0.99375,0.99375,0.99375,0.99375
+macro avg,0.99375,0.99375,0.99375,320.0
+weighted avg,0.99375,0.99375,0.99375,320.0

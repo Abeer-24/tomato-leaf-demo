@@ -1,0 +1,16 @@
+model resnet50 | best epoch 15 | TEST accuracy 0.996 | macro-F1 0.995 | weighted-F1 0.996
+
+                    precision    recall  f1-score   support
+
+    Bacterial_spot      0.994     1.000     0.997       320
+      Early_blight      0.980     0.993     0.987       150
+       Late_blight      1.000     0.990     0.995       287
+         Leaf_Mold      1.000     1.000     1.000       142
+      Mosaic_virus      0.982     1.000     0.991        56
+Septoria_leaf_spot      0.996     0.996     0.996       266
+  Yellow_leaf_curl      1.000     0.996     0.998       803
+           healthy      0.996     1.000     0.998       239
+
+          accuracy                          0.996      2263
+         macro avg      0.994     0.997     0.995      2263
+      weighted avg      0.996     0.996     0.996      2263

@@ -1,0 +1,5 @@
+condition,accuracy,macro_f1,predictions_changed,gained,lost,mcnemar_p
+original,0.99375,0.99375,0.0,0,0,
+crop_top_bottom,0.996875,0.9968745116424441,0.003125,1,0,1.0
+crop_left_right,0.99375,0.99375,0.0,0,0,
+center_zoom,0.99375,0.99375,0.0,0,0,
